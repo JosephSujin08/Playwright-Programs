@@ -7,11 +7,11 @@ function reverseString(str) {
 }
 console.log(reverseString("hello"));
 
-function isPalindrome(str) {
-  let reversed = reverseString(str);
-  return str === reversed;
+function isPalindrome(word) {
+  let reversed = reverseString(word);
+  return word === reversed;
 
-  if (str === reversed) 
+  if (word === reversed) 
     return true;
 
  else 
